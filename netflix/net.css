@@ -1,0 +1,466 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+.logo {
+    width: 22%;
+}
+
+body {
+    background-color: grey;
+
+}
+
+.haeder {
+    background-color: black;
+    background-image: url(img/bg.jpg);
+
+    height: 600px;
+    width: auto;
+    opacity: 1;
+    margin-bottom: 6px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.option {
+    color: rgb(238, 232, 232);
+    background-color: black;
+    border: 1px solid rgb(148, 145, 145);
+    font-size: 16px;
+    height: 35px;
+    width: 130px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn {
+
+    color: rgb(238, 232, 232);
+    background-color: rgb(250, 12, 12);
+    border: 1px solid rgb(148, 145, 145);
+    font-size: 16px;
+    height: 35px;
+    width: 90px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.centerbar {
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 160px;
+    margin: auto;
+    position: relative;
+    top: 0%;
+    color: rgb(255, 255, 255);
+}
+
+.centerbar h1 {
+    font-size: 30px;
+    font-weight: 30px;
+    color: rgb(250, 250, 250);
+}
+
+.centerbar p {
+    font-size: 20px;
+}
+
+.mail {
+    height: 40px;
+    width: 350px;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.btnone {
+    color: rgb(238, 232, 232);
+    background-color: rgb(245, 10, 10);
+    border: 1px solid rgb(148, 145, 145);
+    font-size: 16px;
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.secone {
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    word-wrap: normal;
+    text-wrap: normal;
+    margin-bottom: 8px;
+    height: 500px;
+    width: auto;
+
+}
+
+.tvsidecontent {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding-left: 100px;
+}
+
+.secone h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.secone p {
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.sectwo {
+    position: relative;
+    width: 50%;
+    max-width: 900px;
+    margin-bottom: 30px;
+    margin-right: -20px;
+    margin-top: 50px;
+
+}
+
+.image {
+    width: 70%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58%;
+    height: 52%;
+    object-fit: cover;
+    padding-top: 70px;
+    padding-left: 59px;
+    border-radius: 5px;
+}
+
+.mobile {
+    width: 450px;
+}
+
+.secthree {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 6px;
+    height: 500px;
+}
+
+.mobwithdiv {
+    margin-top: 40px;
+}
+
+
+.secthree img {
+
+    display: block;
+    position: relative;
+    z-index: 10;
+    height: 350px;
+}
+
+.threeone {
+    display: flex;
+    border: 3px solid grey;
+    height: 80px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: black;
+    margin-left: 110px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 65px;
+    align-content: center;
+
+}
+
+.threeone img {
+    width: 40px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.threeone h4 {
+    color: white;
+    height: 30px;
+    font-size: 14px;
+    text-wrap: nowrap;
+    padding-left: 10px;
+    margin-top: 27px;
+}
+
+.threeone p {
+    color: blue;
+    margin-top: -15px;
+    font-size: 15px;
+}
+
+.threetwo {
+    color: white;
+    text-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 450px;
+    text-align: left;
+}
+
+.threetwo h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.threetwo p {
+    font-size: 20px;
+}
+
+.threethree {
+    display: flex;
+    position: relative;
+    width: 73%;
+    height: 55%;
+    object-fit: cover;
+    bottom: 50px;
+    z-index: 10;
+}
+
+.saif {
+    display: flex;
+    background-color: black;
+    margin-bottom: 6px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.diyamob {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+
+}
+
+.diya {
+    width: 76%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 10;
+
+}
+
+.saifvideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 43%;
+    height: 40%;
+    object-fit: cover;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+.saifpara {
+    color: white;
+    text-align: left;
+    word-wrap: normal;
+    margin-left: 150px;
+}
+
+.saifpara h4 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.saifpara p {
+    font-size: 20px;
+}
+
+.child {
+    margin-bottom: 6px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+
+.childpara {
+    text-align: left;
+    width: 400px;
+}
+
+.childpara h4 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.childpara p {
+    font-size: 20px;
+}
+
+.childimg img {
+    height: 350px;
+}
+
+/* accor */
+.accor {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+
+}
+
+.accor-context {
+    max-width: 75%;
+    margin: auto;
+}
+
+
+.accor-context h4 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.accorhead button {
+    font-size: 25px;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background-color: grey;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.accorhead i {
+    font-size: 30px;
+}
+
+.accorpara p {
+    background-color: grey;
+    margin-bottom: 7px;
+    font-size: 20px;
+
+}
+
+
+.accor-bar {
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    margin: auto;
+    position: relative;
+    top: 0%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 7px;
+}
+
+
+.accor-bar p {
+    font-size: 20px;
+}
+
+.accor-bar input {
+    height: 40px;
+    width: 350px;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.accor-bar button {
+    color: rgb(238, 232, 232);
+    background-color: rgb(245, 10, 10);
+    border: 1px solid rgb(148, 145, 145);
+    font-size: 18px;
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.accor-bar i {
+    font-size: 20px;
+}
+
+/* footer */
+.footer {
+
+    color: rgba(255, 255, 255, 0.7);
+    background-color: black;
+    font-size: 13px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+}
+
+.footer h4 {
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-left: 150px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer li {
+    list-style: none;
+    padding: 5px;
+}
+
+.footer-list li, a{
+    color: rgba(255, 255, 255, 0.7);
+}
