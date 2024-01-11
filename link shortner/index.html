@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Link Shortener</title>
+    <style>
+        body{
+            background-color: rgb(28, 22, 150);
+        }
+        .container{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border: none;
+            border-radius: 10px;
+            height: 170px;
+            width: 30%;
+            margin-top: 150px;
+            margin-left: 450px;
+            background-color: rgb(19, 147, 226);
+            padding: 30px;
+        }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Link Shortener</h1>
+      <input type="text" id="original" placeholder="Enter URL" />
+      <button onclick="shorten()">Shorten</button>
+      <p id="shortener"></p>
+    </div>
+
+    <script>
+      function shorten() {
+        const x = document.getElementById("original");
+        const y = document.getElementById("shortener");
+
+        const original = x.value.trim();
+        const shortUrl = btoa(original).substring(0, 6);
+        localStorage.setItem(shortUrl, original);
+        y.innerText = `Shortened URL: ${window.location.href}${shortUrl}`;
+      }
+    </script>
+  </body>
+</html>
